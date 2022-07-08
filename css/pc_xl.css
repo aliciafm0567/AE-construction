@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Trispace:wght@100&display=swap');
+
+@media screen and (min-width:1200px){
+    
+    .titulo{
+        font-size: 3rem;
+        top: 50%;
+    }
+
+    #nosotros img{
+        width: 30%;
+        margin:0;
+        margin-left: 10%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 20px;
+    }
+    
+
+
+    #nosotros article{
+        margin-top: 0;
+        width: 50%;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .servicio{
+        width: 22%;
+        margin: 0 1.5%;
+        margin-bottom: 20px;
+    }
+
+    .serv img{
+        height: 200px;
+    }
+
+    .porta{
+        width: 40%;
+        margin: 0 5%;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+    .portatexto{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        padding-top: 30%;
+        font-size: 2rem;
+        line-height: 1.5rem;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 500px;
+        display:block;
+    }
+    .porta:hover .titulop{
+        display:none;
+    }
+
+    .porta:hover .portatexto{
+        top: 0px;
+    }
+    
+    .portatexto{
+        transition: all 0.5s ease-in-out;
+    }
+
+
+    #contactoformulario{
+        width: 45%;
+        margin-left: 2.5%;
+        display: inline-block;
+    }
+
+    #mapa{
+        width: 40%;
+        margin-left: 5%;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+
+    #fdiva, #fdivb{
+        width: 40%;
+        display: inline-block;
+    }
+
+    #fdiva{
+        text-align: left;
+    }
+
+    #fdivb{
+        text-align: right;
+    }
+  
+        
+}
